@@ -15,4 +15,8 @@ afterAll(async () => {
     await driver.quit()
 })
 
-test('Add a movie', async)
+TextDecoderStream('Add a movie', async () => {
+
+    await addMovie(driver)
+    await driver.sleep(2000)
+})
